@@ -8,7 +8,6 @@ rm(list=ls())
 #distancia euclideana entre dos vectores
 eu.dist <- function(x,y){sqrt(sum((x-y)^2))}
 
-# prueba para commit 
 #X es la nube de puntos en R^3 
 #la quiero entender como una matriz
 #n*3, donde n es la cantidad de puntos
